@@ -28,10 +28,10 @@ jobs:
           git config --local user.name "Mleng89"
           git add .
 
-          arr[0]="auto commit"
-          arr[1]="auto commit"
-          arr[2]="auto commit"
-          arr[3]="auto commit"
+          arr[0]="Testing feature 1"
+          arr[1]="Testing feature 2"
+          arr[2]="Testing feature 3"
+          arr[3]="Testing feature 4"
 
           rand=$[$RANDOM % ${#arr[@]}]
 
